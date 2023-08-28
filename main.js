@@ -5,7 +5,7 @@ var testBoolean = true;
 // Note: Type inference is totally valid, so annotations are not actually required.
 var anotherTestString = "Another one"; // Still need to maintain the type otherwise error is thrown.
 // "any type" (not a great idea in most circumstances).
-// Note: Still not callable.
+// Note: Still not callable if initialised with a non-function value.
 var anything = "Anything";
 anything = 5;
 // Using annotations is good practice when initialising variables without values.
@@ -18,3 +18,11 @@ for (var key in testArray) {
         }
     }
 }
+// Using parameter types.
+var squared = function (num) {
+    return num * num;
+};
+var myName = function (name) {
+    if (name === void 0) { name = "Mario"; }
+    return "Your name is ".concat(name);
+};
