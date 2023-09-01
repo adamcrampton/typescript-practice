@@ -41,7 +41,8 @@ const ticTacToeBoard: string[][] = [
     ["X", "O", "X"]
 ];
 
-// Use as function parameter.
+// Use as function parameter
+// =========================
 type Product = {
     name: string,
     price: number
@@ -53,6 +54,6 @@ const getTotal = (products: Product[]): number => {
     for (let product of products) {
         total += product.price;
     }
-    
+
     return total;
 }
