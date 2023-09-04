@@ -18,8 +18,8 @@ ages.push(22);
 // Alternate syntax.
 var altAges = [4, 13, 17];
 altAges.push(23);
-var coOrds = []; // Must receive an array of "Point" type values.
-coOrds.push({ x: 4, y: 5 });
+var coOrds2 = []; // Must receive an array of "Point" type values.
+coOrds2.push({ x: 4, y: 5 });
 // Multidimensional arrays - number of brackets = depth of array
 // =============================================================
 var ticTacToeBoard = [

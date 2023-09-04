@@ -25,13 +25,13 @@ altAges.push(23);
 
 // Using types
 // ===========
-type Point = {
+type Points = {
     x: number,
     y: number
 }
 
-const coOrds: Point[] = []; // Must receive an array of "Point" type values.
-coOrds.push({x: 4, y: 5});
+let coOrds2: Points[] = []; // Must receive an array of "Point" type values.
+coOrds2.push({x: 4, y: 5});
 
 // Multidimensional arrays - number of brackets = depth of array
 // =============================================================
