@@ -50,5 +50,3 @@ enum arrowKeys {
 }
 
 const left = arrowKeys.LEFT; // "left"
-
-
